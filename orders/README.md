@@ -19,10 +19,19 @@ The parameters in the table below can be set in the WITH clause to filter the re
 | tags | local custom fields set by the institution | Enter up to 3 &quot;tags&quot; or leave blank to return all values. Use &quot;%%&quot; as wildcards. |
 
 
-
 **Sample Output**
 
-![](RackMultipart20210224-4-s9123h_html_b5651b03727449da.jpg)
+| po_line_number | purchase_order_description | po_order_type | purchase_order_acquisition_method | po_acquisition_unit_name | purchase_order_elec_material_type_name | purchase_order_phys_material_type_name |
+|----------------|----------------------------|---------------|-----------------------------------|--------------------------|----------------------------------------|----------------------------------------|
+| 10000-1        |                            | One-Time      | Purchase   At Vendor System       | main                     |                                        | book                                   |
+| 10001-1        |                            | One-Time      | Purchase   At Vendor System       | annex                    |                                        | book                                   |
+| 10002-1        |                            | One-Time      | Purchase   At Vendor System       | main                     | book                                   |                                        |
+| 10003-1        |                            | One-Time      | Purchase   At Vendor System       | annex                    | book                                   |                                        |
+| 101101-1       |                            | Ongoing       | Purchase                          | main                     |                                        | book                                   |
+| 101113-1       |                            | Ongoing       | Purchase                          | main                     |                                        | text                                   |
+| 101125-1       |                            | One-Time      | Purchase                          | main                     |                                        | text                                   |
+| 52590-1        |                            | One-Time      | Purchase                          | annex                    | dvd                                    |                                        |
+| 81-1           |                            | Ongoing       | Purchase                          | annex                    | sound   recording                      |                                        |
 
 **Future Updates**
 
