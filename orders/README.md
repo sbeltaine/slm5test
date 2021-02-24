@@ -1,12 +1,10 @@
+# Orders Report
 
-
-20210224 Orders Report Documentation
-
-**Purpose**
+## Purpose
 
 The purpose of this report is to provide details about each purchase order. It includes options to filter results by date ordered, subscription date range, order type, tags, and workflow status. The data are aggregated by purchase order line number, purchase order type, purchase order description, acquisition unit name, acquisition method, and material type (physical or electronic). Acquisition unit name, subscription dates, and tags are optional, so data will be available for these fields only if the institution has elected to enter it. For subscription dates, the &quot;subscription\_to&quot; date parameter is not the last day of the interval; it is the day after (half open interval). This ensures including all times up to midnight in the date range.
 
-**Parameters**
+## Parameters
 
 The parameters in the table below can be set in the WITH clause to filter the report output.
 
@@ -19,7 +17,7 @@ The parameters in the table below can be set in the WITH clause to filter the re
 | tags | local custom fields set by the institution | Enter up to 3 &quot;tags&quot; or leave blank to return all values. Use &quot;%%&quot; as wildcards. |
 
 
-**Sample Output**
+## Sample Output
 
 | po_line_number | purchase_order_description | po_order_type | purchase_order_acquisition_method | po_acquisition_unit_name | purchase_order_elec_material_type_name | purchase_order_phys_material_type_name |
 |----------------|----------------------------|---------------|-----------------------------------|--------------------------|----------------------------------------|----------------------------------------|
@@ -33,7 +31,7 @@ The parameters in the table below can be set in the WITH clause to filter the re
 | 52590-1        |                            | One-Time      | Purchase                          | annex                    | dvd                                    |                                        |
 | 81-1           |                            | Ongoing       | Purchase                          | annex                    | sound   recording                      |                                        |
 
-**Future Updates**
+## Future Updates
 
 The &quot;paymentDate&quot; field, which captures the date an invoice was paid, is currently in development. This element should be added to the query as soon as it becomes available.
 
