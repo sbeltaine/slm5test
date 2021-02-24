@@ -18,9 +18,7 @@ The parameters in the table below can be set in the WITH clause to filter the re
 | workflow status | shows current workflow status of purchase orders selected, which can be pending, open, or closed | Set &quot;workflow\_status&quot; to &quot;pending,&quot; &quot;open,&quot; or &quot;closed. Leave blank to return all values. |
 | tags | local custom fields set by the institution | Enter up to 3 &quot;tags&quot; or leave blank to return all values. Use &quot;%%&quot; as wildcards. |
 
-|
- |
-| --- |
+
 
 **Sample Output**
 
